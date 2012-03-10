@@ -23,4 +23,6 @@
 - (IBAction) actionIssues;
 - (IBAction) actionDonate;
 
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error;
+
 @end
